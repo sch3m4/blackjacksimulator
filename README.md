@@ -9,7 +9,7 @@
  * Interactivo => El usuario participa en el juego
  * Estadistico => Decide la jugada por estadistica (ajustar logica en el codigo)
 
-## Ejemplo de salida ronda 
+## Ejemplo de salida
     Ronda 8  [  Jugador 0 (18) >G: 3 P: 4<  |  Jugador 1 (10) >G: 4 P: 3<  |  Jugador 2 (17) >G: 5 P: 1<  |  Jugador 3 (17) >G: 3 P: 4<  |  Croupiere (20) >G: 12 P: 15<  ]
     
     [i] Mano actual:  [2, 4, 2, 12]
@@ -45,7 +45,7 @@
     
     [i] Carta? (s/n)[s]: 
 
-## Ejemplo de salida (final)
+## Ejemplo de salida (final de la ronda)
     Ronda 9  [  Jugador 0 (18) >G: 3 P: 5<  |  Jugador 1 (17) >G: 4 P: 4<  |  Jugador 2 (23) >G: 5 P: 2<  |  Jugador 3 (18) >G: 3 P: 5<  |  Croupiere (13) >G: 16 P: 15<  ]
     
     [i] Mano:          [3, 11]
@@ -88,3 +88,29 @@
     La banca (23) pierde contra Jugador 3 (18)
     
     (Pulse intro para pasar a la siguiente ronda) 
+
+## Ejemplo de salida (Fin del juego (no quedan cartas))
+    Ronda 20  [  Jugador 0 (13) >G: 9 P: 7<  |  Jugador 1 (0) >G: 8 P: 11<  |  Jugador 2 (0) >G: 7 P: 10<  |  Jugador 3 (0) >G: 7 P: 10<  |  Croupiere (0) >G: 38 P: 31<  ]
+    
+    
+    (Pulse intro para repartir carta) 
+    
+    
+    + Dinero de los jugadores:
+        Jugador 0: 110 EUR
+    	Jugador 1: 90 EUR
+    	Jugador 2: 100 EUR
+    	Jugador 3: 95 EUR
+    
+    + Resultados de la mesa:
+    	Pierde: 38
+    	Gana: 31
+    	Empata: 7
+    
+    + Moda de resultados por jugador:
+    	Jugador 0: Pierde 7 | Gana 9 | Empata 3 (Gana)
+    	Jugador 1: Pierde 11 | Gana 8 | Empata 0 (Pierde)
+    	Jugador 2: Pierde 10 | Gana 7 | Empata 2 (Pierde)
+    	Jugador 3: Pierde 10 | Gana 7 | Empata 2 (Pierde)
+    
+    + Moda de resultados de la mesa: Pierde
